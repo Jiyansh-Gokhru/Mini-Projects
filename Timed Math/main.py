@@ -39,11 +39,11 @@ for i in range(TOTAL_PROBLEMS):
     if guess.isdigit() and int(guess) == int(answer):
         print("Correct!")
         correct+=1
-        break
+        
     else:
         print("Wrong answer")
         print(f"{answer} was Correct!")
-        break
+        
         
 
 end_time = time.time()
@@ -60,5 +60,5 @@ if((total_time < HIGHSCORE or HIGHSCORE==-1) and correct==TOTAL_PROBLEMS):
     with open("05_Highscore.txt","w") as f:
         f.write(str(total_time))
         print(f"New Record set,\nFor completing All probleams in {total_time} seconds!")
+        print("----------------------")
 
-print("----------------------")
