@@ -1,42 +1,12 @@
 # Mini Projects
 
-A collection of small, focused projects built to practice programming fundamentals and problem‑solving skills.
+A collection of small Python projects built to practice programming fundamentals and problem‑solving skills.
 
-## Purpose
+**Tech:** Python
+**Status:** Ongoing
 
-* Strengthen core concepts through hands‑on practice
-* Improve logical thinking and coding confidence
-* Maintain a growing portfolio of mini projects
+## About
 
-## Tech Stack
+These projects are created as part of continuous learning and hands‑on practice. Each project is independent and focuses on applying core concepts through simple, logic‑driven programs.
 
-* **Language:** Python
-* **Tools:** VS Code, Git
-
-## Structure
-
-```
-Mini-Projects/
-├── project_1.py
-├── project_2.py
-├── project_3.py
-└── ...
-```
-
-Each file represents an independent mini project.
-
-## Usage
-
-```bash
-git clone https://github.com/Jiyansh-Gokhru/Mini-Projects.git
-cd Mini-Projects
-python filename.py
-```
-
-## Notes
-
-* Projects are added progressively
-
----
-
-Built as part of my continuous learning journey 🚀
+Projects will be added over time as learning progresses.
