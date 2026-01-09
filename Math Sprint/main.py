@@ -3,7 +3,7 @@ import time
 
 def hs():
     try:
-        with open("05_Highscore.txt", "r") as f:
+        with open("Highscore.txt", "r") as f:
             return f.read()
     except FileNotFoundError:
         return "-1"
@@ -57,7 +57,7 @@ print("----------------------")
 
 HIGHSCORE = float(hs())
 if((total_time < HIGHSCORE or HIGHSCORE==-1) and correct==TOTAL_PROBLEMS):
-    with open("05_Highscore.txt","w") as f:
+    with open("Highscore.txt","w") as f:
         f.write(str(total_time))
         print(f"New Record set,\nFor completing All probleams in {total_time} seconds!")
         print("----------------------")
