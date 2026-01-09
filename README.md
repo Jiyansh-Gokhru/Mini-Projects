@@ -28,7 +28,7 @@ Each file represents an independent mini project.
 ## Usage
 
 ```bash
-git clone <[repository-url](https://github.com/Jiyansh-Gokhru/Mini-Projects.git)>
+git clone https://github.com/Jiyansh-Gokhru/Mini-Projects.git
 cd Mini-Projects
 python filename.py
 ```
