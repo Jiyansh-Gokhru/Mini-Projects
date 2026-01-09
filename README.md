@@ -36,7 +36,6 @@ python filename.py
 ## Notes
 
 * Projects are added progressively
-* Code is kept simple, readable, and beginner‑friendly
 
 ---
 
